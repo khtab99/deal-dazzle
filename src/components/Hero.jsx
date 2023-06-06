@@ -4,7 +4,7 @@ import BgShape from '../images/hero/hero-bg.png';
 import HeroCar from '../images/hero/main-car.png';
 import { useEffect, useState } from 'react';
 
-function Hero() {
+const Hero = () => {
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
@@ -31,6 +31,7 @@ function Hero() {
       window.removeEventListener('scroll', onPageScroll);
     };
   }, []);
+
   return (
     <>
       <section id="home" className="hero-section">
@@ -53,7 +54,7 @@ function Hero() {
                   className="hero-content__text__btns__book-ride"
                   to="/"
                 >
-                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
+                  Book Now &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
                   Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
@@ -80,6 +81,6 @@ function Hero() {
       </section>
     </>
   );
-}
+};
 
 export default Hero;
