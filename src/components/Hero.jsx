@@ -1,20 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import BgShape from "../images/hero/hero-bg.png";
-import HeroCar from "../images/hero/main-car.png";
-import { useEffect, useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import BgShape from '../images/hero/hero-bg.png';
+import HeroCar from '../images/hero/main-car.png';
+import { useEffect, useState } from 'react';
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" });
+    window.scrollTo({ top: (0, 0), behavior: 'smooth' });
   };
 
   const bookBtn = () => {
     document
-      .querySelector("#booking-section")
-      .scrollIntoView({ behavior: "smooth" });
+      .querySelector('#booking-section')
+      .scrollIntoView({ behavior: 'smooth' });
   };
 
   useEffect(() => {
@@ -25,10 +25,10 @@ function Hero() {
         setGoUp(false);
       }
     };
-    window.addEventListener("scroll", onPageScroll);
+    window.addEventListener('scroll', onPageScroll);
 
     return () => {
-      window.removeEventListener("scroll", onPageScroll);
+      window.removeEventListener('scroll', onPageScroll);
     };
   }, []);
   return (
@@ -73,7 +73,7 @@ function Hero() {
         {/* page up */}
         <div
           onClick={scrollToTop}
-          className={`scroll-up ${goUp ? "show-scroll" : ""}`}
+          className={`scroll-up ${goUp ? 'show-scroll' : ''}`}
         >
           <i className="fa-solid fa-angle-up"></i>
         </div>

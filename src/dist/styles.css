@@ -20,7 +20,7 @@ html {
 
 body {
   background-color: var(--white-color);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
 }
 
@@ -92,7 +92,7 @@ body {
   height: 100%;
 }
 .navbar__img h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-align: center;
   font-weight: 700;
 }
@@ -107,7 +107,7 @@ body {
 }
 .navbar__links a {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   color: var(--black);
   text-decoration: none;
@@ -126,7 +126,7 @@ body {
   display: flex;
   gap: 2.5rem;
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   align-items: center;
 }
@@ -267,12 +267,12 @@ body {
 }
 .hero-content__text h4 {
   font-size: 2.2rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--black);
 }
 .hero-content__text h1 {
   font-size: 5.2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: var(--black);
   line-height: 1.2;
@@ -284,7 +284,7 @@ body {
 }
 .hero-content__text p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.6;
   color: var(--gray);
   margin-bottom: 4rem;
@@ -293,7 +293,7 @@ body {
   display: flex;
   gap: 2rem;
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 @media (max-width: 450px) {
   .hero-content__text__btns {
@@ -388,7 +388,7 @@ body {
   z-index: 4;
   color: var(--white-color);
   border-radius: 5px;
-  background-image: url("/src/images/book-car/book-bg.png");
+  background-image: url('/src/images/book-car/book-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -440,7 +440,7 @@ body {
 .book-content__box .box-form__car-type select {
   font-size: 1.5rem;
   color: #ababab;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   border: 1px solid #ccd7e6;
   border-radius: 3px;
   font-weight: 400;
@@ -479,7 +479,7 @@ body {
   height: fit-content;
   align-self: self-end;
   border: none;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--white-color);
@@ -816,12 +816,12 @@ body {
 }
 .plan-container__title h3 {
   font-size: 2.4rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
 .plan-container__title h2 {
   font-size: 4.2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 1.3rem 0 3rem 0;
 }
 .plan-container__boxes {
@@ -862,7 +862,7 @@ body {
 }
 .plan-container__boxes__box p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--gray);
   line-height: 1.43;
 }
@@ -884,18 +884,18 @@ body {
 }
 .pick-container__title p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--gray);
   line-height: 1.5;
 }
 .pick-container__title h3 {
   font-size: 2.4rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
 .pick-container__title h2 {
   font-size: 4.2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0.5rem 0 1rem 0;
 }
 .pick-container__car-content {
@@ -917,7 +917,7 @@ body {
 }
 .pick-box button {
   font-size: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -989,7 +989,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: var(--white-color);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--main-color);
   padding: 1rem 1rem;
   display: flex;
@@ -1098,7 +1098,7 @@ body {
 .choose-section {
   background-color: var(--white-color);
   padding: 2rem 0 10rem 0;
-  background-image: url("/src/images/chooseUs/bg.png");
+  background-image: url('/src/images/chooseUs/bg.png');
   background-position: -225px 255px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1150,7 +1150,7 @@ body {
   font-size: 2.2rem;
   margin-bottom: 0.7rem;
   font-weight: 600;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 .text-container__left h2 {
   font-size: 4.2rem;
@@ -1159,7 +1159,7 @@ body {
 }
 .text-container__left p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.5;
   color: var(--gray);
   margin-bottom: 3.3rem;
@@ -1214,7 +1214,7 @@ body {
 .text-container__right__box__text p {
   font-size: 1.6rem;
   color: var(--gray);
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.3;
 }
 
@@ -1238,7 +1238,7 @@ body {
 }
 .testimonials-content__title h4 {
   font-size: 2.2rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
 .testimonials-content__title h2 {
@@ -1247,7 +1247,7 @@ body {
 }
 .testimonials-content__title p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--gray);
   line-height: 1.4;
 }
@@ -1299,7 +1299,7 @@ body {
 }
 .all-testimonials__box__name__profile p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
 }
 
@@ -1323,7 +1323,7 @@ body {
 }
 
 .faq-section {
-  background-image: url("/src/images/faq/car.png");
+  background-image: url('/src/images/faq/car.png');
   padding: 10rem 0;
   background-size: auto;
   background-repeat: no-repeat;
@@ -1393,7 +1393,7 @@ body {
 }
 .faq-box__answer {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--gray);
   line-height: 1.7;
   max-height: 0;
@@ -1425,7 +1425,7 @@ body {
 }
 
 .download-section {
-  background-image: url("/src/images/banners/bg02.png");
+  background-image: url('/src/images/banners/bg02.png');
   background-color: #f8f8f8;
   background-position: top center;
   background-repeat: no-repeat;
@@ -1460,7 +1460,7 @@ body {
 .download-text p {
   font-size: 1.6rem;
   color: var(--gray);
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.5;
 }
 .download-text__btns {
@@ -1545,7 +1545,7 @@ footer {
 .footer-content__1 li:nth-child(3),
 .footer-content__1 li:nth-child(4) {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -1573,11 +1573,11 @@ footer {
   font-size: 2.4rem;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   cursor: auto;
 }
 .footer-content__2 input {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -1618,7 +1618,7 @@ footer {
 .hero-pages {
   width: 100%;
   height: 41rem;
-  background-image: url("/src/images/hero/heroes-bg.png");
+  background-image: url('/src/images/hero/heroes-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1701,7 +1701,7 @@ footer {
 }
 .about-main__text h3 {
   font-size: 2.2rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -1712,7 +1712,7 @@ footer {
 .about-main__text p {
   font-size: 1.6rem;
   color: var(--gray);
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.5;
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -1766,7 +1766,7 @@ footer {
   display: flex;
   width: 100%;
   height: 20rem;
-  background-image: url("/src/images/banners/book-banner.png");
+  background-image: url('/src/images/banners/book-banner.png');
   position: relative;
   margin-top: 7rem;
 }
@@ -2008,7 +2008,7 @@ footer {
   margin: 0 auto;
   color: var(--black);
   padding: 10rem 2rem;
-  background-image: url("/src/images/banners/bg-contact.png");
+  background-image: url('/src/images/banners/bg-contact.png');
   background-size: auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2038,7 +2038,7 @@ footer {
 }
 .contact-div__text p {
   font-size: 1.6rem;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--gray);
   line-height: 1.6;
   margin-bottom: 2rem;
