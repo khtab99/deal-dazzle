@@ -408,9 +408,15 @@ body {
 }
 .book-content__box .box-form {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr auto;
+  justify-self: center;
   gap: 2rem;
+}
+.book-content__box .box-form .search-btn {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  border-radius: 0.2rem;
 }
 .book-content__box .box-form b {
   color: var(--main-color);

@@ -1,7 +1,7 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
-function CarBox({ data, carID }) {
+const CarBox = ({ data, carID }) => {
   const [carLoad, setCarLoad] = useState(true);
   return (
     <>
@@ -11,7 +11,7 @@ function CarBox({ data, carID }) {
           <div className="pick-car">
             {carLoad && <span className="loader"></span>}
             <img
-              style={{ display: carLoad ? "none" : "block" }}
+              style={{ display: carLoad ? 'none' : 'block' }}
               src={car.img}
               alt="car_img"
               onLoad={() => setCarLoad(false)}
@@ -20,7 +20,7 @@ function CarBox({ data, carID }) {
           {/* description */}
           <div className="pick-description">
             <div className="pick-description__price">
-              <span>${car.price}</span>/ rent per day
+              Price: <span>${car.price}</span>
             </div>
             <div className="pick-description__table">
               <div className="pick-description__table__col">
@@ -60,13 +60,13 @@ function CarBox({ data, carID }) {
             </div>
             {/* btn cta */}
             <a className="cta-btn" href="#booking-section">
-              Reserve Now
+              Purchase Now
             </a>
           </div>
         </div>
       ))}
     </>
   );
-}
+};
 
 export default CarBox;
