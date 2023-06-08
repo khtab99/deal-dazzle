@@ -1,9 +1,9 @@
-import React from "react";
-import Footer from "../components/Footer";
-import HeroPages from "../components/HeroPages";
-import Testimonials from "../components/Testimonials";
+import React from 'react';
+import Footer from '../components/Footer';
+import HeroPages from '../components/HeroPages';
+import Testimonials from '../components/Testimonials';
 
-function TestimonialsPage() {
+const TestimonialsPage = () => {
   return (
     <>
       <section className="testimonial-page">
@@ -16,7 +16,7 @@ function TestimonialsPage() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+971)-509-750-351</h3>
               </span>
             </div>
           </div>
@@ -25,6 +25,6 @@ function TestimonialsPage() {
       </section>
     </>
   );
-}
+};
 
 export default TestimonialsPage;

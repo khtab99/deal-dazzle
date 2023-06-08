@@ -1,6 +1,6 @@
-import React from "react";
-import Img2 from "../images/testimonials/pfp1.jpg";
-import Img3 from "../images/testimonials/pfp2.jpg";
+import React from 'react';
+import Img2 from '../images/testimonials/pfp1.jpg';
+import Img3 from '../images/testimonials/pfp2.jpg';
 
 function Testimonials() {
   return (
@@ -9,13 +9,14 @@ function Testimonials() {
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">
-              <h4>Reviewed by People</h4>
-              <h2>Client's Testimonials</h2>
+              <h4>Customer Reviews</h4>
+              <h2>Hear from Satisfied Clients</h2>
               <p>
-                Discover the positive impact we've made on the our clients by
-                reading through their testimonials. Our clients have experienced
-                our service and results, and they're eager to share their
-                positive experiences with you.
+                Gain insights into the positive impact we've had on our clients
+                by exploring their testimonials. Our valued customers have
+                shared their experiences, highlighting the exceptional service
+                and results they've enjoyed. Read their testimonials and
+                discover the satisfaction they've experienced firsthand.
               </p>
             </div>
 
@@ -25,16 +26,17 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                  "Seamless and Affordable Car Buying Experience! I had an
+                  exceptional time purchasing a car from this website. The
+                  process was effortless, and the prices were incredibly
+                  reasonable. Highly recommended! "
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <h4>Samar Mohammed</h4>
+                      <p>Sudan</p>
                     </span>
                   </div>
                 </div>
@@ -45,15 +47,16 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                  " The car was in excellent condition and enhanced our trip
+                  significantly. Highly recommend this Deal Dazzle website for
+                  an exceptional experience! "
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <h4>Osama Tom</h4>
+                      <p>Sudan</p>
                     </span>
                   </div>
                 </div>

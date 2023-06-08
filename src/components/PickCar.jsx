@@ -24,9 +24,9 @@ const PickCar = () => {
               <h3>Browse Vehicle Models</h3>
               <h2>Our Inventory of Cars for Sale</h2>
               <p>
-                Explore our impressive inventory of vehicles available for sale
-                on our car-selling website store. Choose from a diverse range of
-                amazing cars for your next adventure or business needs.
+                Explore our impressive inventory of vehicles available for sale.
+                Choose from a diverse range of amazing cars for your next
+                adventure or business needs.
               </p>
             </div>
             <div className="pick-container__car-content">

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <>
       <footer>
@@ -8,36 +8,38 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                <span>Deal</span> Dazzle
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+                Discover a diverse selection of vehicles tailored to meet your
+                driving needs. Find your perfect car among our wide range of
+                options.
               </li>
               <li>
-                <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                <a href="tel:+971509750351">
+                  <i className="fa-solid fa-phone"></i> &nbsp;
+                  (+971)-509-750-351
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                khtabtoum@gmail.com"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; carrental@gmail.com
+                  &nbsp; khtabtoum@gmail.com
                 </a>
               </li>
 
               <li>
                 <a
-                  style={{ fontSize: "14px" }}
+                  style={{ fontSize: '14px' }}
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://xpeedstudio.com/"
                 >
-                  Design by XpeedStudio
+                  &copy; 2022 khtab 2-B . All rights reserved.
                 </a>
               </li>
             </ul>
@@ -45,7 +47,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">New York</a>
+                <a href="#home">Dubai</a>
               </li>
               <li>
                 <a href="#home">Careers</a>
@@ -85,6 +87,6 @@ function Footer() {
       </footer>
     </>
   );
-}
+};
 
 export default Footer;
