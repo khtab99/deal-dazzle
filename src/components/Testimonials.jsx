@@ -2,7 +2,7 @@ import React from 'react';
 import Img2 from '../images/testimonials/pfp1.jpg';
 import Img3 from '../images/testimonials/pfp2.jpg';
 
-function Testimonials() {
+const Testimonials = () => {
   return (
     <>
       <section className="testimonials-section">
@@ -67,6 +67,6 @@ function Testimonials() {
       </section>
     </>
   );
-}
+};
 
 export default Testimonials;

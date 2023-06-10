@@ -1,8 +1,8 @@
-import React from "react";
-import Footer from "../components/Footer";
-import HeroPages from "../components/HeroPages";
+import React from 'react';
+import Footer from '../components/Footer';
+import HeroPages from '../components/HeroPages';
 
-function Contact() {
+const Contact = () => {
   return (
     <>
       <section className="contact-page">
@@ -17,19 +17,18 @@ function Contact() {
                 years of experience.
               </p>
               <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+                <i className="fa-solid fa-phone"></i>&nbsp; (+971)-509-750-351
               </a>
               <a href="/">
                 <i className="fa-solid fa-envelope"></i>&nbsp;
-                carrental@carmail.com
+                khtabtoum@gmail.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Belgrade,
-                Serbia
+                <i className="fa-solid fa-location-dot"></i>&nbsp; UAE, Dubai
               </a>
             </div>
             <div className="contact-div__form">
-              <form>
+              <form netlify>
                 <label>
                   Full Name <b>*</b>
                 </label>
@@ -60,7 +59,7 @@ function Contact() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+971)-509-750-351</h3>
               </span>
             </div>
           </div>
@@ -69,6 +68,6 @@ function Contact() {
       </section>
     </>
   );
-}
+};
 
 export default Contact;

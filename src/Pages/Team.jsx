@@ -43,7 +43,7 @@ const Team = () => {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+971)-509-750-351</h3>
               </span>
             </div>
           </div>

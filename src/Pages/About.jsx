@@ -1,11 +1,11 @@
-import React from "react";
-import Footer from "../components/Footer";
-import HeroPages from "../components/HeroPages";
-import PlanTrip from "../components/PlanTrip";
-import AboutMain from "../images/about/about-main.jpg";
-import Box1 from "../images/about/icon1.png";
-import Box2 from "../images/about/icon2.png";
-import Box3 from "../images/about/icon3.png";
+import React from 'react';
+import Footer from '../components/Footer';
+import HeroPages from '../components/HeroPages';
+import PlanTrip from '../components/PlanTrip';
+import AboutMain from '../images/about/about-main.jpg';
+import Box1 from '../images/about/icon1.png';
+import Box2 from '../images/about/icon2.png';
+import Box3 from '../images/about/icon3.png';
 
 function About() {
   return (
@@ -23,11 +23,10 @@ function About() {
               <h3>About Company</h3>
               <h2>You start the engine and your adventure begins</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+                Ignite your journey as you start the engine and embark on an
+                exhilarating adventure. Our passion drives us to provide
+                exceptional services and create memorable experiences. Explore
+                the possibilities with us and let your dreams hit the road.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
@@ -41,7 +40,7 @@ function About() {
                   <img src={Box2} alt="car-icon" />
                   <span>
                     <h4>85</h4>
-                    <p>Rental Outlets</p>
+                    <p>Sales Outlets</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
@@ -64,7 +63,7 @@ function About() {
             <h2>Book a car by getting in touch with us</h2>
             <span>
               <i className="fa-solid fa-phone"></i>
-              <h3>(123) 456-7869</h3>
+              <h3>(+971)-509-750-351</h3>
             </span>
           </div>
         </div>

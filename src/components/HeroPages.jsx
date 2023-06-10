@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function HeroPages({ name }) {
+const HeroPages = ({ name }) => {
   return (
     <>
       <section className="hero-pages">
@@ -17,6 +17,6 @@ function HeroPages({ name }) {
       </section>
     </>
   );
-}
+};
 
 export default HeroPages;
